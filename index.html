@@ -110,6 +110,182 @@
             
         
     </section>
+<!-- ============================================================ -->
+<!-- SECTION : CE QUE NOUS POUVONS FABRIQUER (Applications du bambou) -->
+<!-- À insérer après la section 06 / INVESTMENT MEMORANDUM -->
+<!-- ============================================================ -->
+
+<section id="applications">
+  <p>07 / CE QUE NOUS POUVONS FABRIQUER</p>
+  <h2>Un matériau, une infinité d'usages</h2>
+  <p class="app-intro">
+    Au-delà de nos collections actuelles, le bambou ouvre la voie à de nombreuses applications,
+    domestiques comme professionnelles. Voici un aperçu de notre feuille de route produit.
+  </p>
+
+  <div class="app-legend">
+    <span class="badge badge-tested">✅ Testé / Prototypé</span>
+    <span class="badge badge-planned">🔶 Envisagé</span>
+  </div>
+
+  <div class="app-grid">
+
+    <div class="app-card tested">
+      <span class="badge badge-tested">Testé</span>
+      <div class="app-icon">🍽️</div>
+      <h3>Restauration</h3>
+      <p>Gobelets, sous-verres, plateaux, présentoirs à couverts, pailles réutilisables.</p>
+    </div>
+
+    <div class="app-card tested">
+      <span class="badge badge-tested">Testé</span>
+      <div class="app-icon">🏺</div>
+      <h3>Décoration</h3>
+      <p>Cadres, vases, luminaires, séparateurs de pièces (claustras).</p>
+    </div>
+
+    <div class="app-card tested">
+      <span class="badge badge-tested">Testé</span>
+      <div class="app-icon">🧘</div>
+      <h3>Kinésithérapie &amp; bien-être</h3>
+      <p>Rouleaux de massage, bâtons de percussion thérapeutique, planches d'équilibre.</p>
+    </div>
+
+    <div class="app-card tested">
+      <span class="badge badge-tested">Testé</span>
+      <div class="app-icon">🖊️</div>
+      <h3>Bureautique &amp; papeterie</h3>
+      <p>Porte-stylos, sous-mains, règles.</p>
+    </div>
+
+    <div class="app-card planned">
+      <span class="badge badge-planned">Envisagé</span>
+      <div class="app-icon">🏨</div>
+      <h3>Hôtellerie</h3>
+      <p>Porte-clés de chambre, plateaux de bienvenue, distributeurs d'amenities, signalétique.</p>
+    </div>
+
+    <div class="app-card planned">
+      <span class="badge badge-planned">Envisagé</span>
+      <div class="app-icon">🧴</div>
+      <h3>Cosmétique &amp; soins personnels</h3>
+      <p>Brosses à dents, peignes, contenants pour savons et shampoings solides.</p>
+    </div>
+
+    <div class="app-card planned">
+      <span class="badge badge-planned">Envisagé</span>
+      <div class="app-icon">📱</div>
+      <h3>Supports smartphone &amp; tablette</h3>
+      <p>Supports de bureau et présentoirs pour appareils mobiles.</p>
+    </div>
+
+    <div class="app-card planned">
+      <span class="badge badge-planned">Envisagé</span>
+      <div class="app-icon">🕶️</div>
+      <h3>Mode &amp; accessoires</h3>
+      <p>Montures de lunettes, boutons, bijoux, boucles de ceinture.</p>
+    </div>
+
+    <div class="app-card planned">
+      <span class="badge badge-planned">Envisagé</span>
+      <div class="app-icon">🧸</div>
+      <h3>Petite enfance &amp; jouets éducatifs</h3>
+      <p>Hochets, cubes empilables, jeux de construction.</p>
+    </div>
+
+    <div class="app-card planned">
+      <span class="badge badge-planned">Envisagé</span>
+      <div class="app-icon">🌱</div>
+      <h3>Agriculture &amp; jardinage</h3>
+      <p>Tuteurs pour plantes, pots, arrosoirs, structures de treillis.</p>
+    </div>
+
+    <div class="app-card planned">
+      <span class="badge badge-planned">Envisagé</span>
+      <div class="app-icon">🎉</div>
+      <h3>Événementiel</h3>
+      <p>Badges, trophées, éléments de décoration pour mariages et conférences.</p>
+    </div>
+
+  </div>
+</section>
+
+<style>
+#applications {
+  padding: 40px 0;
+}
+.app-intro {
+  max-width: 640px;
+  color: #444;
+  margin-bottom: 20px;
+}
+.app-legend {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+}
+.badge-tested {
+  background-color: #E4F1EA;
+  color: #1F6F4A;
+}
+.badge-planned {
+  background-color: #F8EFDD;
+  color: #B08A3E;
+}
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.app-card {
+  position: relative;
+  background-color: #FAF6EF;
+  border: 1px solid #E8DFCC;
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.app-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+.app-card .badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}
+.app-card.tested {
+  border-left: 4px solid #1F6F4A;
+}
+.app-card.planned {
+  border-left: 4px solid #C9A15A;
+  opacity: 0.92;
+}
+.app-icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.app-card h3 {
+  font-size: 16px;
+  margin: 0 0 8px 0;
+  color: #2B1B12;
+}
+.app-card p {
+  font-size: 13.5px;
+  color: #555;
+  margin: 0;
+  line-height: 1.4;
+}
+</style>
+
 
     <!-- INVESTMENT MEMORANDUM -->
     <section id="investment" class="section table-section">
